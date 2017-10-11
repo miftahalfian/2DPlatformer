@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 33186015425826232}
   - component: {fileID: 23062473773318614}
   - component: {fileID: 114581278405604972}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tanah3-sheet0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40,9 +40,9 @@ GameObject:
   - component: {fileID: 33722672410819604}
   - component: {fileID: 23310504737372212}
   - component: {fileID: 114191157077350950}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tanah4-sheet0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58,9 +58,9 @@ GameObject:
   - component: {fileID: 33177711337285414}
   - component: {fileID: 23793758629583806}
   - component: {fileID: 114466847357917644}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tanah2-sheet0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,9 +76,9 @@ GameObject:
   - component: {fileID: 33151827818716564}
   - component: {fileID: 23173472328589508}
   - component: {fileID: 114597905517599802}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tanah-sheet0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,9 +94,9 @@ GameObject:
   - component: {fileID: 33460273199233280}
   - component: {fileID: 23103552471159954}
   - component: {fileID: 114210929408342850}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tanah5-sheet0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,9 +112,9 @@ GameObject:
   - component: {fileID: 33075900512371694}
   - component: {fileID: 23185072456010044}
   - component: {fileID: 114007899133125720}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tanah6-sheet0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,9 +128,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4512829261889590}
   - component: {fileID: 114985754547590898}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -144,7 +144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4716268147375900}
   - component: {fileID: 114377876711473382}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,9 +160,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4082134321432952}
   - component: {fileID: 60751701363346864}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collision
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -176,9 +176,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4657662943079768}
   - component: {fileID: 114878979930862384}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: map
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -288,8 +288,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1941588690585144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -19.31, y: 1.6199999, z: 0}
+  m_LocalScale: {x: 0.013, y: 0.013, z: 0.013}
   m_Children:
   - {fileID: 4512829261889590}
   - {fileID: 4716268147375900}

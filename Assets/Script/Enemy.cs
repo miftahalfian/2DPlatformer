@@ -4,31 +4,34 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    /*
+    Untuk enemy, kita ada beberapa jenis tipe:
+    1. GROUND : Enemy yg ada di darat. Enemy ini punya behaviour gerak kanan kiri
+    2. FLYING : Enemy yg ada di udara. Behaviour enemy ini seperti enemy ground
+    3. WATER : Enemy yg ada di air. Enemy ini punya behaviour muncul dari bawah ke atas kemudian turun lagi.
+    */
 
-    // Use this for initialization
     public enum EnemyType { GROUND, FLYING, WATER };
     public EnemyType Type = EnemyType.GROUND;
 
     Rigidbody2D rigid;
     Animator anim;
 
-    public float HP = 1;
-    public Transform groundCheck;
-    public Transform batas1;
-    public Transform batas2;
-    public LayerMask whatIsGround;
-    public Sprite upSprite;
-    public Sprite downSprite;
+    public float HP = 1; //HP dari enemy.
+    public Transform batas1; //untuk enemy ground atau flying digunakan untuk batas bergerak ke kiri, untuk enemy water digunakan untuk batas ketika jatuh
+    public Transform batas2; //untuk enemy ground atau flying digunakan untuk batas bergerak ke kanan, untuk enemy water digunakan untuk batas ketika naik
+    public Sprite upSprite; //sprite yg ditampilkan ketika enemy muncul ke atas (khusus tipe water)
+    public Sprite downSprite; //sprite yg ditampilkan ketika enemy jatuh (khusus tipe water)
+    public float delay; //digunakan untuk delay sebelum loncat kembali (khusus tipe water)
 
-    float speed = 2;
-    float downspeed = 7f;
+    float speed = 2; //kecepatan enemy bergerak
+    float downspeed = 7f; //kecepatan enemy jatuh (khusus tipe water)
 
-    private bool isGrounded = false;
-    
-    bool isFacingRight = false;
-    bool isMoveUp = true;
-    float width = 0;
-    float height = 0;
+    bool isGrounded = false; //untuk menyimpan state apakah enemy berada di ground
+    bool isFacingRight = false;  //menyimpan state apakah karakter sedang menghadap ke kanan atau kiri
+    bool isMoveUp = true; //menyimpan state apakah karakter sedang menghadap melompat (khusus tipe water)
+    float width = 0;  //lebar enemy
+    float height = 0; //tinggi enemy
     
     void Start()
     {
@@ -44,8 +47,6 @@ public class Enemy : MonoBehaviour
         switch(Type)
         {
             case EnemyType.GROUND:
-                isGrounded = Physics2D.Linecast(transform.position, groundCheck.position, whatIsGround);
-
                 if (isGrounded)
                 {
                     float predict = speed * Time.deltaTime;
@@ -146,7 +147,18 @@ public class Enemy : MonoBehaviour
     void TakeDamage(float damage)
     {
         HP -= damage;
-        GameController.GetInstance().AddScore(10);
-        if (HP <= 0) Destroy(this.gameObject);
+        if (HP <= 0)
+        {
+            GameController.GetInstance().AddScore(10);
+            Destroy(this.gameObject);
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
     }
 }

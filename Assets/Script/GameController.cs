@@ -4,11 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
-
-    // Use this for initialization
-    public int score = 0;
-    public Text ScoreLabel;
-    private static GameController instance;
+    public int score = 0; //digunakan untuk mencatat skor
+    public Text ScoreLabel; //digunakan untuk menampilkan skor
+    private static GameController instance; //dipakai untuk memanggil method class ini dari class lain
 
 	void Start () {
         instance = this;
@@ -19,6 +17,7 @@ public class GameController : MonoBehaviour {
 		
 	}
 
+    //Digunakan untuk menambah skor
     public void AddScore(int scr)
     {
         score += scr;

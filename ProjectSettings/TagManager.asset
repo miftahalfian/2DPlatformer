@@ -10,6 +10,7 @@ TagManager:
   - BatasKiri
   - BatasKanan
   - Coin
+  - Ground
   layers:
   - Default
   - TransparentFX
