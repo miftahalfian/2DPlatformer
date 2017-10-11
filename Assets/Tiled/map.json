@@ -1,0 +1,111 @@
+{ "height":12,
+ "layers":[
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 2, 2, 2, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3, 3, 3, 7, 0, 0, 0, 2, 2, 2, 2, 2, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3, 3, 3, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 4, 0, 0, 0, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 7, 0, 0, 0, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 7, 0, 6, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+         "height":12,
+         "name":"Ground",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":40,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":12,
+         "name":"Object",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":40,
+         "x":0,
+         "y":0
+        }],
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "properties":
+    {
+
+    },
+ "renderorder":"right-down",
+ "tileheight":64,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "margin":0,
+         "name":"Ground",
+         "properties":
+            {
+
+            },
+         "spacing":0,
+         "tileheight":64,
+         "tiles":
+            {
+             "0":
+                {
+                 "image":"..\/..\/..\/..\/PSG FUAD DAN ERICCK\/Laporan Prakerin Ericck Vian\/Construct 2\/Dino Adventure\/images\/tanah2-sheet0.png"
+                },
+             "1":
+                {
+                 "image":"..\/..\/..\/..\/PSG FUAD DAN ERICCK\/Laporan Prakerin Ericck Vian\/Construct 2\/Dino Adventure\/images\/tanah3-sheet0.png"
+                },
+             "2":
+                {
+                 "image":"..\/..\/..\/..\/PSG FUAD DAN ERICCK\/Laporan Prakerin Ericck Vian\/Construct 2\/Dino Adventure\/images\/tanah4-sheet0.png"
+                },
+             "3":
+                {
+                 "image":"..\/..\/..\/..\/PSG FUAD DAN ERICCK\/Laporan Prakerin Ericck Vian\/Construct 2\/Dino Adventure\/images\/tanah5-sheet0.png"
+                },
+             "4":
+                {
+                 "image":"..\/..\/..\/..\/PSG FUAD DAN ERICCK\/Laporan Prakerin Ericck Vian\/Construct 2\/Dino Adventure\/images\/tanah6-sheet0.png"
+                },
+             "5":
+                {
+                 "image":"..\/..\/..\/..\/PSG FUAD DAN ERICCK\/Laporan Prakerin Ericck Vian\/Construct 2\/Dino Adventure\/images\/tanah-sheet0.png"
+                },
+             "6":
+                {
+                 "image":"..\/..\/..\/..\/PSG FUAD DAN ERICCK\/Laporan Prakerin Ericck Vian\/Construct 2\/Dino Adventure\/images\/tanah6-sheet0.png"
+                }
+            },
+         "tilewidth":64
+        }, 
+        {
+         "firstgid":8,
+         "margin":0,
+         "name":"Object",
+         "properties":
+            {
+
+            },
+         "spacing":0,
+         "tileheight":64,
+         "tiles":
+            {
+             "0":
+                {
+                 "image":"..\/..\/..\/..\/PSG FUAD DAN ERICCK\/Laporan Prakerin Ericck Vian\/Construct 2\/Dino Adventure\/images\/blockapi2-sheet0.png"
+                },
+             "1":
+                {
+                 "image":"..\/..\/..\/..\/PSG FUAD DAN ERICCK\/Laporan Prakerin Ericck Vian\/Construct 2\/Dino Adventure\/images\/blockp1-sheet0.png"
+                },
+             "2":
+                {
+                 "image":"..\/..\/..\/..\/PSG FUAD DAN ERICCK\/Laporan Prakerin Ericck Vian\/Construct 2\/Dino Adventure\/images\/block-sheet0.png"
+                },
+             "3":
+                {
+                 "image":"..\/..\/..\/..\/PSG FUAD DAN ERICCK\/Laporan Prakerin Ericck Vian\/Construct 2\/Dino Adventure\/images\/duri-sheet0.png"
+                }
+            },
+         "tilewidth":64
+        }],
+ "tilewidth":64,
+ "version":1,
+ "width":40
+}
